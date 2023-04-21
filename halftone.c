@@ -204,10 +204,10 @@ static inline vec mat_mulv(mat m, vec v) {
 
 static inline mat mat_inv(mat m) {
 	return MAT(
-		m.raw[0][0],
+		 m.raw[0][0],
 		-m.raw[0][1],
 		-m.raw[1][0],
-		m.raw[1][1]
+		 m.raw[1][1]
 	);
 }
 // ----
